@@ -51,14 +51,14 @@
         android:textColor="@color/white"
 
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/getStartedB"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getStartedB"
         android:layout_width="138dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/green"
@@ -68,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="@+id/textView2" />
-    
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
